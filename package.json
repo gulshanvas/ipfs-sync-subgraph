@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ gulshanvas/ipfs-file --access-token 53e032c830714095b63af404b63edbcd",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ gulshanvas/ipfs-file",
     "create-local": "graph create --node http://localhost:8020/ gulshanvas/ipfs-file",
     "remove-local": "graph remove --node http://localhost:8020/ gulshanvas/ipfs-file",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 gulshanvas/ipfs-file"

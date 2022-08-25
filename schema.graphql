@@ -1,0 +1,15 @@
+type User @entity {
+  id: ID!
+  handle: String!
+  name: String!
+  title: String!
+  bio: String
+  avatar: String
+  coverPicture: String
+  location: String
+  questionnaireId: String
+  twitter: String
+  linkedIn: String
+  github: String
+  facebook: String
+}
